@@ -10,6 +10,8 @@ class evenodd
 		// your code goes here
 		Scanner  sc=new Scanner(System.in);
 		int n=sc.nextInt();
+		if(n>0)
+		{
 		if(n%2==0)
 		{
 			System.out.println("Even");
@@ -17,6 +19,11 @@ class evenodd
 		else
 		{
 			System.out.println("Odd");
+		}
+		}
+		else
+		{
+			System.out.println("Invalid");
 		}
 	}
 }
